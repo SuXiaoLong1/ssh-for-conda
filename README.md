@@ -1,6 +1,8 @@
-
+# 服务器远程连接
 # 使用管理员账号在服务器添加用户
-# 新建用户 
+
+新建用户 
+
     useradd name
   
     passwd name
@@ -8,15 +10,15 @@
     chown name:name /home/sxl
 
 # 使用本人账号远程登录
-# 远程连接
+远程连接
     ssh name@xxx.xxx.xxx.xxx           //name为服务器账户名，xxx.xxx.xxx.xxx为你的ip
   
     密码：xxxxxxxxx                   //xxxxxxxxx为用户在服务器的账号密码
   
 # 远程连接后：
-# 启动bash
+启动bash
     bash
-# 安装conda
+安装conda
     mkdir conda
     
     cd conda
