@@ -25,15 +25,16 @@
 
 使用服务器添加的账号和密码远程登录
 
-1. 开启ssh服务
+1. ```win+R```打开运行，输入cmd，运行cmd
+   
+2. 开启ssh服务
 
         ssh name@xxx.xxx.xxx.xxx           //name为服务器账户名，xxx.xxx.xxx.xxx为你的ip
-   
-2. 使用密码登录
-   
+3. 使用密码登录
+
         密码：xxxxxxxxx                   //xxxxxxxxx为用户在服务器的账号密码
-  
 # 四、安装conda：
+
 1. 启动bash
 
         bash
@@ -49,7 +50,6 @@
         cd miniconda
         
         bash Miniconda3-py38_4.8.3-Linux-x86_64.sh
-   
 4. 检查conda是否安装成功
    
         source ~/.bashrc
