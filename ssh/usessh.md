@@ -1,15 +1,17 @@
+
+# 使用管理员账号在服务器添加用户
 # 新建用户 
-    useradd sxl
+    useradd name
   
-    passwd sxl
+    passwd name
   
-    chown sxl:sxl /home/sxl
+    chown name:name /home/sxl
 
-
+# 使用本人账号远程登录
 # 远程连接
-    ssh sxl@10.32.129.158
+    ssh name@xxx.xxx.xxx.xxx           //name为服务器账户名，xxx.xxx.xxx.xxx为你的ip
   
-    密码：xxxxxxxxx
+    密码：xxxxxxxxx                   //xxxxxxxxx为用户在服务器的账号密码
   
 # 远程连接后：
 # 启动bash
@@ -37,3 +39,5 @@
 # 安装包
     conda install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
   
+# 设置ssh连接后conda自动运行
+    将ssh文件夹的文件复制到用户目录（一般为/home/name）
