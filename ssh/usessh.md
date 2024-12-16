@@ -1,0 +1,22 @@
+新建用户 
+useradd sxl
+passwd sxl
+chown sxl:sxl /home/sxl
+
+
+远程连接
+ssh sxl@10.32.129.158
+密码：xxxxxxxxx
+远程连接后：
+bash
+mkdir conda
+cd conda
+wget https://mirrors.tuna.tsinghua.edu.cn/anaconda/miniconda/Miniconda3-py38_4.8.3-Linux-x86_64.sh --no-check-certificate
+cd miniconda
+bash Miniconda3-py38_4.8.3-Linux-x86_64.sh
+conda -V
+source ~/.bashrc
+conda env list
+conda create -n pose python=3.9
+conda activate pose
+conda install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
