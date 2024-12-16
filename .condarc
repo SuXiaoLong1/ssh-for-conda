@@ -1,0 +1,8 @@
+channels:
+  - http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/msys2
+  - http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/pro
+  - http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/r
+  - http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free
+  - http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
